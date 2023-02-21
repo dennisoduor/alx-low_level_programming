@@ -31,7 +31,6 @@ void print_times_table(int n)
 				{
 					printf("%4d", p);
 				}
-				printf(" ");
 			}
 		printf("\n");
 		}
