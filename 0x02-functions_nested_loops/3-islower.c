@@ -5,8 +5,9 @@
  */
 # include "main.h"
 /**
- *  _islower(int c)-Write a function that checks for lowercase character.
+ *  _islower-Write a function that checks for lowercase character.
  *  Returns 1 if c is lowercase
+ *  @c: the character to be checked
  *  Return: Always 0.
 */
 int _islower(int c)
