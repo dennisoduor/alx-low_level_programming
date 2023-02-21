@@ -25,14 +25,13 @@ void print_times_table(int n)
 				p = z * r;
 				if (r != n)
 				{
-					printf("%d,", p);
+					printf("%2d,", p);
 				}
 				else
 				{
-					printf("%d", p);
+					printf("%2d", p);
 				}
-			printf(" ");
-			printf(" ");
+				printf(" ");
 			}
 		printf("\n");
 		}
