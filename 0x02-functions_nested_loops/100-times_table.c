@@ -31,7 +31,7 @@ void print_times_table(int n)
 				{
 					printf("%d", p);
 				}
-			printf("\t ");
+			printf("\t");
 			}
 		printf("\n");
 		}
