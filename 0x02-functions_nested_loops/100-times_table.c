@@ -23,6 +23,11 @@ void print_times_table(int n)
 			for (r = 0; r <= n; r++)
 			{
 				p = z * r;
+				if (n == 0)
+				{
+					printf("%d", p);
+					break;
+				}
 				if (r == 0)
 				{
 					printf("%d,", p);
