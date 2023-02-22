@@ -3,7 +3,9 @@
  * Auth: Dennis Oduor
  */
 
+#include "main.h"
 #include <stdio.h>
+#define n 50
 
 /**
  * main-Write a program that prints the first 50 Fibonacci numbers,
