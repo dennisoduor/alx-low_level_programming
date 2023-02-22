@@ -16,7 +16,7 @@
 
 int main(void)
 {
-	long long fib[n];
+	long fib[n];
 	int i;
 
 	fib[0] = 1;
