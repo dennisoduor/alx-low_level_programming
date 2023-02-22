@@ -16,7 +16,6 @@
 
 int main(void)
 {
-	int n = 50;
 	int fib[n];
 	int i;
 
