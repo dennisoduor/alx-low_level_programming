@@ -28,7 +28,7 @@ int main(void)
 	}
 	for (i = 0; i < n; i++)
 	{
-		printf("%lld", fib[i]);
+		printf("%lli", fib[i]);
 		if (i < n - 1)
 		{
 			printf(", ");
