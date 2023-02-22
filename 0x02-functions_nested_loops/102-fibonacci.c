@@ -16,7 +16,7 @@
 
 int main(void)
 {
-	long fib[n];
+	long long int fib[n];
 	int i;
 
 	fib[0] = 1;
@@ -28,7 +28,7 @@ int main(void)
 	}
 	for (i = 0; i < n; i++)
 	{
-		printf("%ld", fib[i]);
+		printf("%lld", fib[i]);
 		if (i < n - 1)
 		{
 			printf(", ");
