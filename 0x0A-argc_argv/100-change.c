@@ -22,8 +22,9 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
-	int num_coins = 0;
+	int num_coinso;
 
+	num_coins = 0;
 	num_coins += cents / 25;  /* number of quarters */
 	cents %= 25;             /* remainder after quarters are removed */
 	num_coins += cents / 10;  /* number of dimes */
