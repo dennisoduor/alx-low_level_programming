@@ -1,8 +1,4 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
-
-/*
- * File: holberton.h
+/* File: holberton.h
  * AUth: Dennis Oduor
  * Desc: Header file containing prototypes for all functions
  *       written in the 0x14-bit_manipulation directory.
@@ -14,6 +10,4 @@ int get_bit(unsigned long int n, unsigned int index);
 int set_bit(unsigned long int *n, unsigned int index);
 int clear_bit(unsigned long int *n, unsigned int index);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
-int get_endianness(void);
-
-#endif /* HOLBERTON_H */
+unsigned int flip_bits(unsigned long int n, unsigned long int m);
